@@ -9,13 +9,13 @@ namespace connection {
 
 
 
-class Server : public QObject
+class ConnectionServer : public QObject
 {
     Q_OBJECT
 
     public:
-        Server(QObject *parent = 0  );
-        ~Server();
+        ConnectionServer(QObject *parent = 0  );
+        ~ConnectionServer();
     signals:
 
     public slots:

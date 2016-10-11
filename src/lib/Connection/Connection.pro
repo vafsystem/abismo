@@ -6,22 +6,21 @@
 
 QT       += core network
 
-TARGET = ../../../../../lib/AbismoConnection
+TARGET = ../../../../lib/AbismoConnection
 TEMPLATE = lib
 CONFIG += staticlib
 
 CONFIG += c++11 install
 
-SOURCES += Connection.cpp \
-    Client.cpp \
-    Server.cpp \
-    Message.cpp
+SOURCES += \
+    ConnectionClient.cpp \
+    ConnectionServer.cpp
 
 
-HEADERS += Connection.h \
-    Server.h \
-    Client.h \
-    Message.h
+HEADERS += \
+    ConnectionClient.h \
+    ConnectionServer.h \
+    ConnectionMessage.h
 
 
 headers.path =../../../include/abismo/connection

@@ -6,7 +6,7 @@
 
 QT       -= core gui
 
-TARGET = ../../../../../lib/AbismoCore
+TARGET = ../../../../lib/AbismoCore
 TEMPLATE = lib
 CONFIG += staticlib
 

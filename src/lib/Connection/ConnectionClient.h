@@ -8,13 +8,13 @@
 namespace abm {
 namespace connection {
 
-class Client : public QObject
+class ConnectionClient : public QObject
 {
     Q_OBJECT
 
     public:
 
-       Client(QObject *parent = 0);
+       ConnectionClient(QObject *parent = 0);
 
     signals:
 

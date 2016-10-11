@@ -1,13 +1,13 @@
+#include <iostream>
 #include <QCoreApplication>
 
-#include <abismo/connection/Server.h>
+#include <abismo/connection/ConnectionServer.h>
 
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    abm::connection::Server server;
-
+    abm::connection::ConnectionServer server;
 
 
     return a.exec();

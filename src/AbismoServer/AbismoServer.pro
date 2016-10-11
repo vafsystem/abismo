@@ -2,7 +2,7 @@ QT += core
 QT += network
 QT -= gui
 
-TARGET = ../../../../bin/AbismoServer
+TARGET = ../../../bin/AbismoServer
 CONFIG += console
 CONFIG -= app_bundle
 
